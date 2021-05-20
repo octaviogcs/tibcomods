@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    overflow: hidden;
+}
+
+#mod-container {
+    white-space: pre;
+}
+
+.lasso path {
+    stroke: rgb(165, 164, 164);
+    stroke-width:2px;
+}
+
+.lasso .drawn {
+    fill-opacity:.05 ;
+}
+
+.lasso .loop_close {
+    fill:none;
+    stroke-dasharray: 4,4;
+}
+
+.lasso .origin {
+    fill:#3399FF;
+    fill-opacity:.5;
+}
+
+#dropdownMenuButton1
+{
+
+    float: right;
+    
+}
+#myRange, #demo
+{
+    width: 25%;
+    display: none;
+}
+
+.axis
+{
+
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+
+}
+
+
