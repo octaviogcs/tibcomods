@@ -1,0 +1,23 @@
+{
+    "apiVersion": "1.1",
+    "version": "1.0",
+    "name": "Tree Map",
+    "id": "js-dev-treediagram",
+    "icon": "TreeDiagram.svg",
+    "properties": [],
+    "dataViewDefinition": {
+        "axes": [
+            {
+                "name": "Hierarchy",
+                "mode": "categorical"
+                }
+        ]
+    },
+    "files": [
+        "index.html",
+        "main.css",
+        "main.js",
+        "d3.js",
+        "treediag.js"
+    ]
+}
